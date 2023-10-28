@@ -1,0 +1,27 @@
+1) minikube start
+2) minikube status
+
+# create deployment 
+
+3) kubectl create deployment nginx-depl --image=nginx
+
+4) kubectl get deployments
+
+5) kubectl get pods
+
+# create service to expose pod 
+
+6) kubectl expose deployment nginx-depl --type=NodePort --name=ex-nginx-service --port=80
+
+7) kubectl get service
+
+9) minikube service --url ex-nginx-service
+
+10) minikube ip
+
+
+
+______________________________________________________________________________________________________________________________________
+
+
+
